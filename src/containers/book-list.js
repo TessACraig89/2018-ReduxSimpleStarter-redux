@@ -9,10 +9,10 @@ export default class BookList extends Component {
     });
   }
   render() {
-    return {
+    return (
       <ul className="list-group col-sm-4">
         {this.renderList()}
       </ul>
-    }
+    );
   }
 }
