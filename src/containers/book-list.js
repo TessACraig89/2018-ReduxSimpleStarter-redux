@@ -17,3 +17,9 @@ class BookList extends Component {
     );
   }
 }
+// takes application state, array of books and active book, and whatever is returned will show up as props inside bookList
+function mapStateToProps(state) {
+  return {
+    books: state.books
+  };
+}
